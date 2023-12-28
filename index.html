@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+body{background-image: url(./picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+</style>
+<body>
+    <center>
+        <h2>Personal Details</h2>
+<form action="./submit.html">     
+<h5>Frist name :
+    
+    <input type="text">
+    </h5>
+<h5>Last name :
+    <input type="text">
+</h5>
+
+
+<h5>Gender : 
+    <input type="radio"value="Male"name="Gender">Male
+    <input type="radio"value="Female"name="Gender">Female
+    <input type="radio"value="Other"name="Gender">Other
+</h5>
+
+    <h5>
+        Email <input type="email"name="email">
+    </h5>
+    <h5>City
+    <select name="City">
+        <option value="Kolkata">Kolkata</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Other">Other</option>
+    </select></h5>
+    
+    <h5>
+        DOB <input type="date">
+    </h5>
+  
+  <textarea 
+       name="address"placeholder="address">Address
+  </textarea>
+  <br>
+  <br>  <input type="file">
+  <br><br>
+  <a href="./submit.html"><input type="submit" value="submit"></a>
+</form>
+</center>
+  <br>
+<center>
+  <video height="200" src="./start.mp4"controls >Starting </video>
+  <br>
+  <a href="./about.html">Contact Me</a>
+
+</center>
+</body>
+</html>
